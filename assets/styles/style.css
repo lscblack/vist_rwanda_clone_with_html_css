@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.container video {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    object-fit: cover;
+    position: absolute;
+
+}
+
+nav {
+    z-index: 2;
+    position: sticky;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+}
+
+nav a {
+    font-family: sans-serif;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+
+}
+
+.tour_title {
+    padding: 16px;
+    border-bottom: 1px solid #000000;
+    width: fit-content;
+    font-weight: 200;
+    margin: 0 auto;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 600px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: 20px auto;
+    text-align: center;
+}
